@@ -1,4 +1,14 @@
 # threejs-lesson2
+Second THREE.js lesson in Computer Graphics II course at MENDELU.
+
+- 3D models import
+- Lighting
+
+## Getting started
+1. Go into `template` or `complete` folder
+2. `npm install`
+3. `npm run start`
+4. Open http://localhost:8080/ in a WebGL supported browser.
 
 ## Links
 
