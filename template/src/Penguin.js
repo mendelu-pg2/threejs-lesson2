@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { removeLights } from "./utils"
 
 export default class Penguin {
     constructor(scene) {
@@ -13,6 +14,8 @@ export default class Penguin {
         const loader = new GLTFLoader();
 
         loader.load('models/penguin/badtz.gltf', gltf => {
+            removeLights(gltf.scene);
+            gltf.scene.parent = this.scene;
             this.object = gltf.scene;
 
             this.object.scale.set(0.4, 0.4, 0.4);

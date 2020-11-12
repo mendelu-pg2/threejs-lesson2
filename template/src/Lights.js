@@ -8,7 +8,7 @@ export default class Lights {
     }
 
     initAmbientLight() {
-        this.ambient = new THREE.AmbientLight(0x404040, 0.5); // soft white light
+        this.ambient = new THREE.AmbientLight(0x404040, 0.3); // soft white light
         this.scene.add(this.ambient);
     }
 
