@@ -10,3 +10,6 @@ https://poly.google.com/
 
 A penguin used in this lesson:\
 https://poly.google.com/view/5yRYU-YH9aL
+
+Interactive lighting tutorial:\
+https://threejsfundamentals.org/threejs/lessons/threejs-lights.html
