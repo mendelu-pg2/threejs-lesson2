@@ -15,7 +15,6 @@ export default class Penguin {
 
         loader.load('models/penguin/badtz.gltf', gltf => {
             removeLights(gltf.scene);
-            gltf.scene.parent = this.scene;
             this.object = gltf.scene;
 
             this.object.scale.set(0.4, 0.4, 0.4);
