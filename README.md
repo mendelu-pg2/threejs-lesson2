@@ -3,6 +3,7 @@ Second THREE.js lesson in Computer Graphics II course at MENDELU.
 
 - 3D models import
 - Lighting
+- Key bindings
 
 ## Getting started
 1. Go into `template` or `complete` folder
